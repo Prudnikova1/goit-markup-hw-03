@@ -88,6 +88,8 @@ p {
     letter-spacing: 0.02em;
 padding: 24px 0;
 display: block;
+display: flex;
+padding: 24px 0
 }
 
 .nav-link-link:hover,
