@@ -53,9 +53,11 @@ p {
 /* -----header------ */
 .nav{
     align-items: center;
-    padding: 24px 0
+    padding: 24px 0;
 }
-
+.header-conteiner{
+    display: flex;
+}
 .header{
     padding: 24px 0;
 }
@@ -80,7 +82,6 @@ p {
 }
 
 .nav-link {
-    display: flex;
     color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
