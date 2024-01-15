@@ -71,7 +71,7 @@ p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    padding: 24px 0
+    padding: 24px 0;
 }
 
 .logo-part {
@@ -89,10 +89,9 @@ p {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-padding: 24px 0;
 display: block;
 display: flex;
-padding: 24px 0
+padding: 24px 0;
 }
 
 .nav-link-link:hover,
@@ -108,6 +107,7 @@ padding: 24px 0
 .address-list{
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .address-link {
