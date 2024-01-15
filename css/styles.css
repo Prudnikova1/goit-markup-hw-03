@@ -28,7 +28,7 @@ ul {
 .conteiner {
     width: 1158px;
     padding: 0 15px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 img {
@@ -56,6 +56,9 @@ p {
     align-items: center;
 }
 
+.header{
+    padding: 24px 0;
+}
 .nav-logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -114,15 +117,11 @@ display: block;
 }
 /* -----section1----- */
 
-.hero-conteiner{
-
-}
-
-
 .section-hero {
     background-color: #2E2F42;
     padding-top: 188px;
         padding-bottom: 292px;
+        padding: 188px 0;
 }
 
 .hero-title {
@@ -152,8 +151,10 @@ margin-bottom: 48px;
         margin-right: auto;
         padding: 16px 32px;
         min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
 }
-
 
 .btn-hero:hover, 
 .btn-hero:focus {
@@ -161,7 +162,11 @@ background-color: #404BBF;
 }
 
 /* -----section2------ */
-.features-conteiner{
+.features {
+    padding: 120px 0;
+}
+.features-item{
+    width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -180,7 +185,6 @@ background-color: #404BBF;
 .features-list{
     display:flex;
     gap: 24px;
-    width: calc((100% - 24 * 3) / 4);
     margin: 120px 156px;
 }
 
@@ -190,6 +194,7 @@ background-color: #404BBF;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .feauters-subtitle-text {
@@ -202,7 +207,7 @@ background-color: #404BBF;
 /* ----section3------ */
 .section-photo{
 background:#F4F4FD;
-padding-bottom: 120px;
+padding: 120px 0
 }
 
 .heading-items-imeges{
@@ -223,8 +228,11 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    padding-top: 120px;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
+}
+
+.item-text-photo{
+    padding: 32px 0;
 }
 
 .text-item {
@@ -234,7 +242,7 @@ padding-bottom: 120px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 32px;
+        text-align: center;
         margin-bottom: 8px;
 }
 
@@ -242,7 +250,8 @@ padding-bottom: 120px;
    background-color: #FFFFFF;
 display: flex;
     gap: 24px;
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .text-item-desc {
@@ -252,7 +261,7 @@ display: flex;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
+    text-align: center;
 }
 
 /*----- portfolio -------*/
@@ -275,7 +284,7 @@ border: 1px solid #E7E9FC;
 border-top: none;
 }
 
-portfolio-subtitle{
+.portfolio-subtitle{
     margin-bottom: 8px;
 }
 
@@ -288,7 +297,7 @@ width: calc((100% - 48px) / 3);
 
 .portfolio-heading{
 text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 72px;
 }
 
 .portfolio-pic {
@@ -334,6 +343,8 @@ text-align: center;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px
 }
 
 .footer-link-part {
@@ -346,5 +357,4 @@ text-align: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
-    margin-top: 16px;
 }
