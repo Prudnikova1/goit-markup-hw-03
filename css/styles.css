@@ -54,6 +54,7 @@ p {
 .nav{
     align-items: center;
     padding: 24px 0;
+    display: flex;
 }
 .header-conteiner{
     display: flex;
@@ -79,6 +80,7 @@ p {
 
 .nav-list {
     gap: 40px;
+    display: flex;
 }
 
 .nav-link {
