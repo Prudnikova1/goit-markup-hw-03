@@ -52,8 +52,8 @@ p {
 
 /* -----header------ */
 .nav{
-    display: flex;
     align-items: center;
+    padding: 24px 0
 }
 
 .header{
@@ -76,11 +76,11 @@ p {
 }
 
 .nav-list {
-    display: flex;
     gap: 40px;
 }
 
 .nav-link {
+    display: flex;
     color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
