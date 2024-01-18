@@ -141,9 +141,9 @@ padding: 24px 0;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-bottom: 48px;
   max-width: 496px;
 margin: 0 auto;
+margin-bottom: 48px;
 }
 
 .btn-hero {
